@@ -58,4 +58,4 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- Competitest
 
 vim.keymap.set("n", "<F2>", "<cmd>CompetiTest receive testcases<CR>")
-vim.keymap.set("n", "<F5>", "<cmd>CompetiTest run<CR>")
+vim.keymap.set("n", "<C-B>", "<cmd>CompetiTest run<CR>")
